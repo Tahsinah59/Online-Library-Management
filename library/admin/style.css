@@ -1,0 +1,238 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*------------------------------------------------------Main Code---------------------------------------------------*/
+
+.wrapper
+{
+    height: 660px;
+    width: 1364px;
+
+}
+
+header
+{
+    height: 130px;
+    width: 1364px;
+    background-color: black;
+}
+
+section .header
+{
+    height: 100vh;
+    width: 100%;
+    background: url(image/library.jpg) no-repeat center center / cover;
+}
+
+footer
+{
+    height: 80px;
+    width: 1364px;
+    background-color: black;
+}
+.logo
+{
+   
+    padding-left: 10px;
+    float: left;
+}
+.logo img
+{
+    padding-left: 70px;
+}
+
+li a
+{
+    color: white;
+    text-decoration: none;
+}
+/*nav
+{
+    float: right;
+    word-spacing: 30px;
+    padding: 20px;
+}
+nav li
+{
+    display: inline-block;
+    line-height: 80px;
+}*/
+/*section .sec_id
+{
+    margin-top: 0px;
+    background-image: url("image/library.jpg");
+    background-size: 1364px 440px;
+}*/
+.box
+{
+    height: 300px;
+    width: 450px;
+    background-color: #150601fa;
+    margin: 55px auto;
+    opacity: .4;
+    color: white;
+    
+}
+
+/* ----------------------------------------------student-login---------------------------------------*/
+
+.log_img
+{
+
+    height: 100vh;
+    width: 100%;
+    background: url(image/book-img.jpeg) no-repeat center center / cover;
+}
+.ul_c
+{
+    display: inline-block;
+    line-height: 40px;
+}
+.box1
+{
+    height: 350px;
+    width: 450px;
+    background-color: #e0ccc6;
+    margin: 55px auto;
+    opacity: .4;
+    color: #f90202;
+    
+}
+
+form .login
+{
+    margin: auto 70px;
+}
+
+input
+{
+    height: 25px;
+    width: 300px
+
+}
+.container-fluid{
+    display: flex;
+}
+.container-fluid> div {
+  flex: 1; /*grow*/
+}
+
+/*--------------------------------------------student-registration-------------------------------------*/
+
+.reg_img
+{
+
+    height: 100vh;
+    width: 100%;
+    background: url(image/reg.jpg) no-repeat center center / cover;
+}
+
+.box2
+{
+    height: 550px;
+    width: 450px;
+    background-color: #000000;
+    margin: 70px auto;
+    opacity: .4;
+    color: #ffffff;
+    
+}
